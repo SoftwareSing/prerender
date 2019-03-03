@@ -3,6 +3,7 @@ var prerender = require('./lib');
 
 var server = prerender({
   port: 3900,
+  httpsport: 3901,
   waitAfterLastRequest: 3000
 });
 
