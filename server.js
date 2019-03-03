@@ -13,4 +13,4 @@ server.use(prerender.removeScriptTags());
 server.use(prerender.httpHeaders());
 
 server.start();
-process.env.DISABLE_LOGGING = true;
+// process.env.DISABLE_LOGGING = true;
